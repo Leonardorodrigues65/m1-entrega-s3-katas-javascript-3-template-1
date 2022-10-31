@@ -1,4 +1,4 @@
-//////  1  //////
+
 
 function xRunning(running){
    
@@ -17,7 +17,7 @@ function xRunning(running){
 
 xRunning (["x", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"]);
 
-//////   2  /////
+
 
 function vowelsCounter(counter){
 
@@ -38,8 +38,9 @@ function vowelsCounter(counter){
       }else if (frutaVogal == "i"){
 
         contVogal++
+
       }else if (frutaVogal == "o"){
-        
+
         contVogal++
       }else if (frutaVogal == "u"){
         contVogal++
@@ -56,7 +57,7 @@ function vowelsCounter(counter){
 
 console.log(vowelsCounter(["laranja", "abacaxi", "acerola", "morango", "uva", "melancia"]));
 
-//////  3 //////
+
 
 function stringTripletGroup(triple){    
 
@@ -98,7 +99,7 @@ for(let i = 0 ; i < triple.length ; i+= 3){
 console.log(stringTripletGroup("Os três mosqueteiros"));
 
 
-///////     4    ///////
+
 
 function dominantPet(pet){
 
@@ -135,7 +136,6 @@ function dominantPet(pet){
 dominantPet(["DoG", "cat", "cAT", "dOg", "cat", "Dog", "caT"]);
 
 
-//////  5 //////
 
 function divisibleList (lista , n ){
 
@@ -157,7 +157,7 @@ for(let i = 0 ; i < lista.length ; i++){
 console.log(divisibleList([14, 25, 32, 50, 35, 30], 5));
 
 
-///////  6 //////
+
 
 function trustMeOrNot(bool , n){
 
@@ -176,7 +176,6 @@ return trust;
 console.log(trustMeOrNot(true, 8));
 
 
-/////// 7 ///////
 
 
 function changeLampStatus(lista){
@@ -202,7 +201,7 @@ return change;
 console.log(changeLampStatus([false, false, true, false, true, true, true]));
 
 
-///////   8    ///////
+
 
 function gradeAverage (lista){
 
@@ -227,7 +226,6 @@ function gradeAverage (lista){
 gradeAverage([6.0, 5.5, 6.7, 8.0, 10, 10, 7.1]);
 
 
-///////  9  ///////
 
 function canvasDeliveriesPercentage(lista){
 
@@ -254,7 +252,7 @@ function canvasDeliveriesPercentage(lista){
 canvasDeliveriesPercentage([3, 9.5, 6, 8, 10, 10, 7.1, 8.5, 2.3, 6.7]);
 
 
-/////// 10   //////
+
 
 
 
